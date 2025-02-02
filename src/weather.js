@@ -9,6 +9,12 @@ export default async function getWeather(location) {
     return filterJson(json);
   } catch (error) {
     console.error(error);
+    return {
+      temp: "##",
+      conditions: "",
+      address: `Error retrieving location "${location}"!`,
+      icon: "",
+    };
   }
 }
 
