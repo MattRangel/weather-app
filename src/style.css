@@ -1,0 +1,18 @@
+@keyframes fade-out {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 25%;
+  }
+}
+
+#weather.loading {
+  & h1::before,
+  & p::before {
+    content: "▊▊▊▊▊▊▊▊▊▊";
+  }
+
+  animation: 1s infinite alternate fade-out;
+}
