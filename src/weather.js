@@ -6,7 +6,7 @@ export default async function getWeather(location) {
     const response = await fetch(url);
     const json = await response.json();
 
-    console.log(filterJson(json));
+    return filterJson(json);
   } catch (error) {
     console.error(error);
   }
