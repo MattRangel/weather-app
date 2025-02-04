@@ -1,4 +1,5 @@
 import "./style.css";
+import "./weather-backgrounds.css";
 import getWeather from "./weather.js";
 import { displayWeather, toggleWeatherLoading } from "./display-weather.js";
 

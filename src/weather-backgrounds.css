@@ -1,0 +1,39 @@
+body {
+  background-image: url(./images/aurora-borealis.jpg);
+}
+
+.clear-day {
+  background-image: url(./images/clear-day.jpg);
+}
+
+.clear-night {
+  background-image: url(./images/clear-night.jpg);
+}
+
+.cloudy {
+  background-image: url(./images/cloudy.jpg);
+}
+
+.fog {
+  background-image: url(./images/fog.jpg);
+}
+
+.partly-cloudy-day {
+  background-image: url(./images/partly-cloudy-day.jpg);
+}
+
+.partly-cloudy-night {
+  background-image: url(./images/partly-cloudy-night.jpg);
+}
+
+.rain {
+  background-image: url(./images/rain.jpg);
+}
+
+.snow {
+  background-image: url(./images/snow.jpg);
+}
+
+.wind {
+  background-image: url(./images/wind.jpg);
+}

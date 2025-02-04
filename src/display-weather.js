@@ -6,7 +6,7 @@ export function displayWeather(data) {
   container.children.conditions.innerText = data.conditions;
 
   toggleWeatherLoading();
-  container.classList = data.icon;
+  document.body.classList = data.icon;
 }
 
 export function toggleWeatherLoading() {
