@@ -20,16 +20,12 @@ form > * {
   max-width: 32rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  text-align: center;
+  text-shadow: white 0 0 10px;
 }
 
 #weather > h1 {
   grid-column: span 2;
-}
-
-@media (orientation: portrait) {
-  #weather {
-    text-align: center;
-  }
 }
 
 @keyframes fade-out {
